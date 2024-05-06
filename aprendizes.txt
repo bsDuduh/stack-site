@@ -1,0 +1,9 @@
+
+// para criar o projeto
+npm create vite@latest
+
+//instalar node modules
+npm i
+
+// npm run dev
+rodar na porta local o site exe: localhost:8080 

@@ -1,5 +1,13 @@
 import React from 'react';
 import '../../Style/Footer/Footer.css';
+import sms from '../../src/assets/sms.png'
+import facebook from '../../src/assets/facebook.png'
+import instagram from '../../src/assets/instagram.png'
+import linkedln from '../../src/assets/linkedin.png'
+import faq from '../../src/assets/faq.png'
+import email from '../../src/assets/email.png'
+import tel from '../../src/assets/telefone.png'
+import x from '../../src/assets/x.png'
 
 export default function Footer() {
     return (
@@ -9,21 +17,21 @@ export default function Footer() {
                 <div className="footer-contact">
                     <div className="contact-item">
                         <a href="#" className="footer-link">
-                            <img className="logo_contact" src="/src/assets/email.png" alt="Email" /><span>Stack@gmail.com</span>
+                            <img className="logo_contact"  alt="Email"  src={email}/><span>Stack@gmail.com</span>
                         </a>
                     </div>
                     <div className="contact-item">
                         <a href="#" className="footer-link">
-                            <img className="logo_contact" src="/src/assets/telefone.png" alt="Telefone" /><span>0800 4002 8922</span>
+                            <img className="logo_contact"  alt="Telefone" src={tel}/><span>0800 4002 8922</span>
                         </a>
                     </div>
                     <div className="contact-item">
                         <a href="#" className="footer-link">
-                            <img className="logo_contact" src="/src/assets/sms.png" alt="SMS" /><span>SMS</span></a>
+                            <img className="logo_contact" alt="SMS" src={sms}/><span>SMS</span></a>
                     </div>
                     <div className="contact-item">
                         <a href="#" className="footer-link">
-                            <img className="logo_contact" src="/src/assets/faq.png" alt="FAQ" /><span>FAQ</span>
+                            <img className="logo_contact" alt="FAQ" src={faq} /><span>FAQ</span>
                         </a>
                     </div>
                 </div>
@@ -49,10 +57,10 @@ export default function Footer() {
                 <div id='footer_contacts'>
                     <h3>Nos Acompanhe</h3>
                     <div id='footer_social_media'>
-                        <a href='#' className='footer-link'><img className='linkedin' src='/src/assets/linkedin.png' alt='LinkedIn' /><span className="social-media-text"> @Stack </span></a>
-                        <a href='#' className='footer-link'><img className='instagram' src='/src/assets/instagram.png' alt='Instagram' /><span className="social-media-text"> @Stack </span></a>
-                        <a href='#' className='footer-link'><img className='x' src='/src/assets/x.png' alt='X' /><span className="social-media-text"> @Stack </span></a>
-                        <a href='#' className='footer-link'><img className='facebook' src='/src/assets/facebook.png' alt='Facebook' /><span className="social-media-text"> @Stack </span></a>
+                        <a href='#' className='footer-link'><img className='linkedin' src={linkedln} alt='LinkedIn' /><span className="social-media-text"> @Stack </span></a>
+                        <a href='#' className='footer-link'><img className='instagram' src={instagram} alt='Instagram' /><span className="social-media-text"> @Stack </span></a>
+                        <a href='#' className='footer-link'><img className='x' src={x} alt='X' /><span className="social-media-text"> @Stack </span></a>
+                        <a href='#' className='footer-link'><img className='facebook' src={facebook} alt='Facebook' /><span className="social-media-text"> @Stack </span></a>
                     </div>
                 </div>
                 

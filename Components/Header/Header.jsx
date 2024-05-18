@@ -1,15 +1,17 @@
 import '../../Style/Header/Header.css';
-
+import menuAberto from "../../src/assets/menu.png"
+import menuOculto from "../../src/assets/close.png"
+import logo from "../../src/assets/imgIcone.png"
 export default function Header() {
     function menuShow() {
         let menuMobile = document.querySelector('.mobile-menu');
         let icon = document.querySelector('.icon');
         if (menuMobile.classList.contains('open')) {
             menuMobile.classList.remove('open');
-            icon.src = "/src/assets/menu.png";
+            icon.src = menuAberto;
         } else {
             menuMobile.classList.add('open');
-            icon.src = "/src/assets/close.png";
+            icon.src = menuOculto ;
         }
     }
 
@@ -17,7 +19,7 @@ export default function Header() {
         <header>
             <nav className="navbar">
                 <div>
-                    <img className='logo' src="/src/assets/imgIcone.png" alt="Logo" />
+                    <img className='logo' src={logo} alt="Logo" />
                 </div>
                 <div className="navlist">
                     <ul>
@@ -29,7 +31,7 @@ export default function Header() {
                     </ul>
                 </div>
                 <div className='mobile-menu-icon'>
-                    <button onClick={menuShow}><img className='icon' src="/src/assets/menu.png" alt='Menu Icon' /></button>
+                    <button onClick={menuShow}><img className='icon' src={menuAberto} alt='Menu Icon' /></button>
                 </div>
             </nav>
             <div className='mobile-menu'>

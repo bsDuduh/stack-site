@@ -1,22 +1,51 @@
-.Imagem1{
-    width: 100%;
-    height: 100%;
-    object-fit: cover; 
-}
-.container{
-    width: 100vw;
-    height: 667px;
-
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
 }
 
+.Imagem1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+
+.Logo {
+  background-color: blue;
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 300px;
+}
+
+.Logo img {
+  width: 100%;
+  height: auto;
+}
 
 @media (min-width: 768px) {
-    .container {
-      max-width: 768vw;
-    }
+  .container {
+    max-width: 768px;
   }
+}
+
 @media (min-width: 1024px) {
-    .container {
-      max-width: 1024vw;
-    }
+  .container {
+    max-width: 1024px;
   }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+}
+
+@media (min-width: 2560px) {
+  .container {
+    max-width: 2560px;
+  }
+}

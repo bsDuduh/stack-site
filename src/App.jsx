@@ -6,7 +6,7 @@ export default function App() {
   return (
     <div className="App">
       <Header/>
-      <Imagens src='/src/assets/imgFundo.png' alt='penes'/>
+      <Imagens src='/src/assets/imgFundo.png' alt='fundo computador antigo' className={'Imagem1'}/>
       <Footer/>
     </div>
   );

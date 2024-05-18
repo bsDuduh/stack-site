@@ -122,23 +122,6 @@ footer {
     margin-left: 0.5rem; 
 }
 
-#footer_content {
-    display: flex;
-    justify-content: space-between; 
-    flex-wrap: wrap; 
-    padding: 1rem 0.5rem;
-    gap: 1.5rem;
-}
-
-#footer_contacts {
-    min-width: 200px;
-    flex-basis: calc(50% - 0.75rem); 
-}
-
-.footer-list {
-    flex-basis: calc(50% - 0.75rem); 
-}
-
 
 
 /* Media Queries para Telas Maiores */

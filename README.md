@@ -1,7 +1,7 @@
 **README**
 
 # Projeto Stack
-![Logo da Empresa](src/assets/logo.png)
+![Logo da Empresa](src/assets/logo_escrita.png) </br>
 Este repositório contém o código-fonte e a documentação relacionada ao site da empresa Stack, uma fábrica de software, desenvolvido como parte do trabalho de conclusão de curso.
 
 ## Descrição

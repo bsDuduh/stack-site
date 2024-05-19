@@ -1,0 +1,53 @@
+.contain {
+    position: relative; 
+    background-color: #fff;
+    padding: 0 1em; 
+    text-align: center;
+}
+
+.section-container {
+    position: relative;
+    width: 100%;
+}
+
+.sobre-nos-container {
+    position: absolute;
+    left: 2.5em;
+    width: 90%; /* Alterado para 90% do container pai */
+    max-width: 800px;
+    margin: 0.5em auto; 
+    padding: 1.2em;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    z-index: 1; 
+}
+
+#SobreNos h3 {
+    font-size: 1.2em;
+    margin-top: 0; 
+    color: #000;
+    white-space: nowrap;
+}
+
+.empresa {
+    color: #6C0AD9;
+}
+
+.texto1, .texto2 {
+    font-size: 0.8em;
+    text-align: right;
+    margin-top: 1em; 
+}
+
+.texto2 {
+    font-size: 0.7em;
+}
+
+#SobreNos img {
+    width: 100%; 
+    margin-top: 1em;
+    border-radius: 0px 10px; 
+    height: 200px; 
+}

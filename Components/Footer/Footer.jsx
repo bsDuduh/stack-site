@@ -66,7 +66,7 @@ export default function Footer() {
                 
             </div>
             <div id='footer_copyright'>
-                <p>Stack 2022 &copy;</p>
+                <p>Stack 2024 &copy;</p>
             </div>
         </footer>
     );

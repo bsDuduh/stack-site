@@ -1,0 +1,37 @@
+.geral{
+    width: 100%;
+    padding-left: 2em;
+    padding-right: 2em;
+    height: 100%;
+}
+.LinhasContainerH {
+    display:grid;
+}
+.LinhasContainerH2 {
+    margin-top: -1em;
+    display:grid;
+
+}
+.LinhasContainer {
+    margin-top: -1em;
+    display:flex;
+    height: 75vh;
+}
+
+.LinhaH {
+    height: 2px; 
+    background: linear-gradient(#6C0AD9, #A41BF9, #D10DFA, #EB0DEB); 
+    margin-bottom: 2px; 
+}
+.Linha {
+    width: 2px; 
+    background: linear-gradient(#6C0AD9, #A41BF9, #D10DFA, #EB0DEB); 
+    margin-right: 2px; 
+}
+.LinhasContainerReta{
+    margin-right: -0.1em;
+    margin-top: -1em;
+    display:flex;
+    height: 70vh;
+    justify-content: flex-end;
+}

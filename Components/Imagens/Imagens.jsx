@@ -11,7 +11,7 @@ export default function Imagens({ src, alt, className }) {
                 <img src={logoEscrito} alt="logo escrito stack" />
                 <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
                 <div className="seta">
-                    <a href=""><img src={seta} alt="seta" /></a>
+                    <a href="#footer_content"><img src={seta} alt="seta" /></a>
                 </div>
 
             </div>

@@ -11,7 +11,7 @@ import x from '../../src/assets/x.png'
 
 export default function Footer() {
     return (
-        <footer>
+        <footer >
             <div id='footer_content'>
                 <h3>Entre em Contato</h3>
                 <div className="footer-contact">

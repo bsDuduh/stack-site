@@ -11,35 +11,64 @@
 
 .navbar {
     display: flex;
-    padding: 1.5rem 6rem;
+    padding: 1.5rem 2rem;
     justify-content: space-between;
     align-items: center;
     transition: all 0.5s;
     box-shadow: 0 0.1rem 0.5rem var(--main-color);
+    overflow: hidden;
 }
 
 .logo {
     display: flex;
     justify-content: center;
-    width: 100%;
-    max-width: 180px;
-    height: auto;
+    width: 120px; /* Valor fixo para a largura em dispositivos móveis */
+    height: auto; /* Ajuste automático da altura */
 }
 
 .navlist {
-    display: flex;
+    display: none;
     align-items: center;
-    white-space: nowrap;
 }
 
-.navlist ul {
+.mobile-menu-icon {
+    display: block;
+}
+
+.mobile-menu-icon button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.mobile-menu ul {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
     list-style: none;
 }
 
-.navitem {
-    margin: 0 0.938rem;
+.mobile-menu .navitem {
+    padding-top: 1.2rem;
+}
+
+.mobile-menu {
+    width: 100%;
+    padding: 1rem 2rem;
+}
+
+.mobile-menu.open {
+    display: block;
+}
+
+.icon {
+    width: 2rem;
+    height: 2rem;
 }
 
 .navlink, .navlink-contato {
@@ -53,69 +82,46 @@
     color: var(--main-color);
 }
 
-.mobile-menu-icon {
-    display: none;
-}
-
-.mobile-menu {
-    display: none;
-}
-
-.icon {
-    width: 24px;
-    height: 24px;
-}
-
-@media screen and (max-width: 768px) {
-    .navbar {
-        padding: 1.5rem 4rem;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
+/* Estilos para dispositivos maiores */
+@media screen and (min-width: 769px) {
 
     .logo {
-        max-width: 120px;
+        width: 180px;
     }
-    
+
     .navlist {
-        display: none;
-    }
-    
-    .mobile-menu-icon {
-        display: block;
-    }
-    
-    .mobile-menu-icon button {
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
-
-    }
-
-    .mobile-menu ul {
         display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding-bottom: 1rem;
-        list-style: none;
+        flex: 1; 
+        justify-content: flex-end; 
     }
 
-    .mobile-menu .navitem {
-        padding-top: 1.2rem;
+    .navlist ul {
+        display: flex;
+        list-style: none;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .navitem {
+        margin: 1rem;
+        flex-shrink: 1; 
+    }
+
+    .navlink, .navlink-contato {
+        font-size: calc(0.5rem + 0.4vw);
+      
+    }
+
+    .mobile-menu-icon {
+        display: none;
     }
 
     .mobile-menu {
-        width: 100%;
-        padding: 1rem 2rem;
-    }
-
-    .mobile-menu.open {
-        display: block;
+        display: none;
     }
 
     .icon {
-        width: 2rem;
-        height: 2rem;
+        width: 24px;
+        height: 24px;
     }
 }

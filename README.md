@@ -22,9 +22,11 @@ O site da empresa Stack foi desenvolvido utilizando as seguintes tecnologias:
 - **React**: Biblioteca JavaScript para a construção de interfaces de usuário.
 - **HTML5**: Linguagem de marcação para estruturar o conteúdo da página.
 - **CSS3**: Linguagem de estilo para definir a apresentação e o layout do site.
-
+  
+## Visite nosso site!
+  https://bsduduh.github.io/stack-site
+  
 ## Instalação e Uso
-
 Para utilizar o código-fonte deste projeto, siga as instruções abaixo:
 ```bash
 1. Clone este repositório em seu ambiente local:

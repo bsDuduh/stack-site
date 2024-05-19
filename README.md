@@ -1,6 +1,6 @@
 **README**
 
-# Projeto Stack - Fábrica de Software
+# Projeto Stack
 
 Este repositório contém o código-fonte e a documentação relacionada ao site da empresa Stack, uma fábrica de software, desenvolvido como parte do trabalho de conclusão de curso.
 

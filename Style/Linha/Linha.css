@@ -87,3 +87,12 @@
        
     }
 }
+@media screen and (max-height:480px){
+    .LinhasContainer{
+        height: 95vh;
+       
+    }
+    
+}
+
+

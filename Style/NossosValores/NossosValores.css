@@ -8,7 +8,7 @@
     position: absolute;
     right: 2.5em;
     width: 90%; 
-    margin: 40em auto ; 
+    margin: 45em auto ; 
     padding: 1.2em;
     display: flex;
     flex-direction: column; 
@@ -41,11 +41,11 @@
 
 @media screen and (min-width: 650px) {
     .NossosValores-container{
-        margin: 42em auto ; 
+        margin: 90vh auto ; 
     }
 }
 
-@media screen and (min-width: 706px) {
+@media screen and (min-width: 700px) {
     .texto{
         font-size: 1.1em; 
     }
@@ -53,12 +53,17 @@
     .Valores{
         font-size: 1.4em
     }
+    .NossosValores-container{
+        
+        margin: 70em auto ; 
+       
+    }
 }
 
 @media screen and (min-width: 1023px){
     .NossosValores-container{
         
-        margin: 60em auto ; 
+        margin: 70em auto ; 
        
     }
     
@@ -103,6 +108,32 @@
     }
     
 }
+@media screen and (max-height:780px){
+    .NossosValores-container{
+        
+        margin: 90vh auto ; 
+       
+    }
+    
+}
+@media screen and (max-height:690px){
+    .NossosValores-container{
+        
+        margin: 80vh auto ; 
+       
+    }
+    
+}
+@media screen and (max-height:480px){
+    .NossosValores-container{
+        
+        margin: 95vh auto ; 
+       
+    }
+    
+}
+
+
 
 
 

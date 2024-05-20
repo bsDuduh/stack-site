@@ -7,21 +7,22 @@
 
 .section-container {
     position: relative;
-    width: 100%;
+    width: 100%; 
+    margin: 1em auto; 
 }
 
 .sobre-nos-container {
     position: absolute;
     left: 2.5em;
-    width: 90%; /* Alterado para 90% do container pai */
-    max-width: 800px;
-    margin: 0.5em auto; 
+    width: 90%; 
+    margin: 1em auto; 
     padding: 1.2em;
     display: flex;
     flex-direction: column; 
     justify-content: center;
     align-items: center; 
     z-index: 1; 
+    height: 60vh;
 }
 
 #SobreNos h3 {
@@ -51,3 +52,32 @@
     border-radius: 0px 10px; 
     height: 200px; 
 }
+
+@media screen and (min-width: 650px){
+    #SobreNos img{
+        height: 300px;
+    }
+
+    .texto1, .texto2 {
+        font-size: 1em;
+        
+    }
+
+    .sobre-nos-container {
+        margin: 2.5em auto; 
+    }
+
+}
+
+@media screen and (min-width: 1023px){
+    
+    #SobreNos img{
+        height: 60vh;
+    }
+
+    
+    .sobre-nos-container {
+        margin: 3.5em auto; 
+    }
+}
+

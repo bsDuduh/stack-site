@@ -32,6 +32,25 @@
     margin-right: -0.1em;
     margin-top: -1em;
     display:flex;
-    height: 70vh;
+    height: 50vh;
     justify-content: flex-end;
+}
+
+@media screen and (min-width:650px){
+    .LinhasContainer{
+        height: 80vh;
+    }
+    .LinhasContainerReta{
+        
+       
+        height: 55vh;
+       
+    }
+}
+
+@media screen and (min-width: 1023px){
+    .LinhasContainer{
+        height: 85vh;
+    }
+
 }

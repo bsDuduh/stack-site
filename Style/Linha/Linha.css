@@ -54,3 +54,36 @@
     }
 
 }
+@media screen and (min-width: 2559px){
+    .LinhasContainer{
+        height: 65vh;
+    }
+    
+}
+@media screen and (min-height:2350px){
+    .LinhasContainer{
+        height: 65vh;
+    }
+    .LinhasContainerReta{
+        
+       
+        height: 20vh;
+       
+    }
+}
+@media screen and (min-height:1370px){
+    .LinhasContainer{
+        height: 65vh;
+    }
+    .LinhasContainerReta{
+        height: 20vh;
+       
+    }
+}
+@media screen and (min-height:1096px){
+    
+    .LinhasContainerReta{
+        height: 50vh;
+       
+    }
+}

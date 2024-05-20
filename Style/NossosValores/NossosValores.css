@@ -8,7 +8,7 @@
     position: absolute;
     right: 2.5em;
     width: 90%; 
-    margin: 27em auto ; 
+    margin: 40em auto ; 
     padding: 1.2em;
     display: flex;
     flex-direction: column; 
@@ -41,7 +41,7 @@
 
 @media screen and (min-width: 650px) {
     .NossosValores-container{
-        margin: 30.5em auto ; 
+        margin: 42em auto ; 
     }
 }
 
@@ -58,12 +58,51 @@
 @media screen and (min-width: 1023px){
     .NossosValores-container{
         
-        margin: 33em auto ; 
+        margin: 60em auto ; 
        
     }
     
 }
+@media screen and (min-width: 1439px){
+    .NossosValores-container{
+        
+        margin: 75em auto ; 
+       
+    }
     
+}
+@media screen and (min-width: 2559px){
+    .NossosValores-container{
+        
+        margin: 105em auto ; 
+       
+    }
+    
+}
+@media screen and (min-height:2350px){
+    .NossosValores-container{
+        
+        margin: 100em auto ; 
+       
+    }
+    
+}
+@media screen and (min-height:1370px){
+    .NossosValores-container{
+        
+        margin: 57em auto ; 
+       
+    }
+    
+}
+@media screen and (min-height:1096px){
+    .NossosValores-container{
+        
+        margin: 60em auto ; 
+       
+    }
+    
+}
 
 
 

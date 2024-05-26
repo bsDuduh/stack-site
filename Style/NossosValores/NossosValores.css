@@ -62,8 +62,8 @@
 
 @media screen and (min-width: 1023px){
     .NossosValores-container{
-        
-        margin: 70em auto ; 
+
+        margin: 70em auto; 
        
     }
     
@@ -79,8 +79,16 @@
 @media screen and (min-width: 2559px){
     .NossosValores-container{
         
-        margin: 105em auto ; 
+        margin: 47em auto ; 
        
+    }
+
+    .texto{
+        font-size: 1.3em;
+    }
+
+    .Valores{
+        font-size: 1.8em;
     }
     
 }

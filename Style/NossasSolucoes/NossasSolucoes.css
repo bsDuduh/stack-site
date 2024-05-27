@@ -1,0 +1,24 @@
+#nossasSolu{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+}
+.solu{
+    color: #6C0AD9;
+}
+.swiper-scrollbar {
+    background-color: #6C0AD9;
+}
+.swiper-scrollbar-drag {
+    background-color: #A41BF9; 
+}
+.btn{
+    margin-top: 1em;
+    background-color: #6C0AD9;
+    border: none;
+    padding: 1em 2em 1em 2em;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 0.9em;
+}

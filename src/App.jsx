@@ -6,6 +6,7 @@ import Linha from '../Components/Linha/Linha';
 import SobreNos from '../Components/SobreNos/SobreNos';
 import NossosValores from '../Components/NossosValores/NossosValores';
 import CardPessoas from '../Components/CardPessoas/CardPessoas';
+import NossasSolucoes from '../Components/NossasSolucoes/NossasSolucoes';
 export default function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ export default function App() {
       <NossosValores/>
       <CardPessoas/>
       <Linha />
+      <NossasSolucoes/>
       <Footer/>
     </div>
   );

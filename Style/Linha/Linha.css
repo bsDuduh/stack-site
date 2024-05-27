@@ -1,7 +1,7 @@
 .geral{
     width: 100%;
     padding-left: 2em;
-    padding-right: 2em;
+    padding-right: 1.5em;
     height: 100%;
 }
 .LinhasContainerH {
@@ -10,7 +10,7 @@
 .LinhasContainerH2 {
     margin-top: -1em;
     display:grid;
-
+    
 }
 .LinhasContainer {
     margin-top: -1em;

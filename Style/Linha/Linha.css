@@ -15,7 +15,7 @@
 .LinhasContainer {
     margin-top: -1em;
     display:flex;
-    height: 75vh;
+    height: 600px;
 }
 
 .LinhaH {
@@ -32,67 +32,6 @@
     margin-right: -0.1em;
     margin-top: -1em;
     display:flex;
-    height: 50vh;
+    height: 300px;
     justify-content: flex-end;
 }
-
-@media screen and (min-width:650px){
-    .LinhasContainer{
-        height: 80vh;
-    }
-    .LinhasContainerReta{
-        
-       
-        height: 55vh;
-       
-    }
-}
-
-@media screen and (min-width: 1023px){
-    .LinhasContainer{
-        height: 85vh;
-    }
-
-}
-@media screen and (min-width: 2559px){
-    .LinhasContainer{
-        height: 65vh;
-    }
-    
-}
-@media screen and (min-height:2350px){
-    .LinhasContainer{
-        height: 65vh;
-    }
-    .LinhasContainerReta{
-        
-       
-        height: 20vh;
-       
-    }
-}
-@media screen and (min-height:1370px){
-    .LinhasContainer{
-        height: 65vh;
-    }
-    .LinhasContainerReta{
-        height: 20vh;
-       
-    }
-}
-@media screen and (min-height:1096px){
-    
-    .LinhasContainerReta{
-        height: 50vh;
-       
-    }
-}
-@media screen and (max-height:480px){
-    .LinhasContainer{
-        height: 95vh;
-       
-    }
-    
-}
-
-

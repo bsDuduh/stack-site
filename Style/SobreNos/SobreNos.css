@@ -15,14 +15,14 @@
     position: absolute;
     left: 2.5em;
     width: 90%; 
-    margin: 1em auto; 
+    margin: 2em auto; 
     padding: 1.2em;
     display: flex;
     flex-direction: column; 
     justify-content: center;
     align-items: center; 
     z-index: 1; 
-    height: 60vh;
+    height: 400px;
 }
 
 #SobreNos h3 {
@@ -53,7 +53,7 @@
     height: 200px; 
 }
 
-@media screen and (min-width: 650px){
+@media screen and (min-width: 300px){
     #SobreNos img{
         height: 300px;
     }
@@ -64,20 +64,20 @@
     }
 
     .sobre-nos-container {
-        margin: 2.5em auto; 
+       padding-top: 15vh;
     }
 
 }
 
-@media screen and (min-width: 1023px){
+@media screen and (min-width: 1024px){
     
     #SobreNos img{
-        height: 60vh;
+        height: 50vh;
     }
-
     
     .sobre-nos-container {
-        margin: 3.5em auto; 
+        margin: 2em auto; 
     }
+    
 }
 

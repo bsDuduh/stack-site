@@ -1,141 +1,51 @@
+.contain {
+    position: relative;
+    background-color: #fff;
+    padding: 0 1em;
+    text-align: center;
+}
+
+.textoPrincipal {
+    position: relative;
+    width: 100%;
+    margin: 1em auto;
+}
+
+.NossosValores-container {
+    max-height: 800px;
+    margin-top: 620px;
+    position: absolute;
+    right: 3em;
+    padding: 1.5em;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
 .Valores {
     color: #6C0AD9;
     text-align: left;
-    font-size: 1.3em; 
+    font-size: 1.2em;
     padding-right: 3em;
 }
-.NossosValores-container{
-    position: absolute;
-    right: 2.5em;
-    width: 90%; 
-    margin: 45em auto ; 
-    padding: 1.2em;
-    display: flex;
-    flex-direction: column; 
-    z-index: 1; 
-    max-height: 60vh;
-    height: 100%;
-}
 
-.texto{
-    font-size: 0.8em;
+.texto {
+    font-size: 0.7em;
     text-align: left;
-    margin-top: 1em; 
-   
+    margin-top: 1em;
 }
 
-@media screen and (min-width: 592px) {
-    .texto{
-        font-size: 1em;
-    }
-}
+@media screen and (min-width: 1024px) {
 
-@media screen and (min-width: 2560px) {
-    .Valores{
-        font-size: 1.7em;
+    .texto {
+        font-size: 1.2em;
+        margin-top: 1em;
     }
-    .texto{
-        font-size: 1.3em;
+    .Valores {
+        font-size: 2em;
     }
-}
-
-@media screen and (min-width: 650px) {
-    .NossosValores-container{
-        margin: 90vh auto ; 
+    .NossosValores-container {
+        right: 5em;
     }
 }
-
-@media screen and (min-width: 700px) {
-    .texto{
-        font-size: 1.1em; 
-    }
-
-    .Valores{
-        font-size: 1.4em
-    }
-    .NossosValores-container{
-        
-        margin: 70em auto ; 
-       
-    }
-}
-
-@media screen and (min-width: 1023px){
-    .NossosValores-container{
-        
-        margin: 70em auto ; 
-       
-    }
-    
-}
-@media screen and (min-width: 1439px){
-    .NossosValores-container{
-        
-        margin: 75em auto ; 
-       
-    }
-    
-}
-@media screen and (min-width: 2559px){
-    .NossosValores-container{
-        
-        margin: 105em auto ; 
-       
-    }
-    
-}
-@media screen and (min-height:2350px){
-    .NossosValores-container{
-        
-        margin: 100em auto ; 
-       
-    }
-    
-}
-@media screen and (min-height:1370px){
-    .NossosValores-container{
-        
-        margin: 57em auto ; 
-       
-    }
-    
-}
-@media screen and (min-height:1096px){
-    .NossosValores-container{
-        
-        margin: 60em auto ; 
-       
-    }
-    
-}
-@media screen and (max-height:780px){
-    .NossosValores-container{
-        
-        margin: 90vh auto ; 
-       
-    }
-    
-}
-@media screen and (max-height:690px){
-    .NossosValores-container{
-        
-        margin: 80vh auto ; 
-       
-    }
-    
-}
-@media screen and (max-height:480px){
-    .NossosValores-container{
-        
-        margin: 95vh auto ; 
-       
-    }
-    
-}
-
-
-
-
-
-
-

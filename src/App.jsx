@@ -5,6 +5,7 @@ import imagemFundo from '../src/assets/imgFundo.png'
 import Linha from '../Components/Linha/Linha';
 import SobreNos from '../Components/SobreNos/SobreNos';
 import NossosValores from '../Components/NossosValores/NossosValores';
+import CardPessoas from '../Components/CardPessoas/CardPessoas';
 export default function App() {
   return (
     <div className="App">
@@ -12,6 +13,7 @@ export default function App() {
       <Imagens src={imagemFundo} alt='fundo computador antigo' className={'Imagem1'}/>
       <SobreNos/>
       <NossosValores/>
+      <CardPessoas/>
       <Linha />
       <Footer/>
     </div>

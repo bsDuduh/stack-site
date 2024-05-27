@@ -1,0 +1,83 @@
+.nossa-equipe-container {
+    position: absolute;
+    width: 90%;
+    margin: 57em auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5em;
+    left: 2em;
+    height: 850px;
+}
+
+.nossa-equipe-container h3 {
+    margin: 0;
+    text-align: right;
+    font-size: 1.8em;
+    width: 100%;
+}
+
+.nossa-equipe-container span {
+    text-align: right;
+    font-size: 1em;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.equipe {
+    color: #6C0AD9;
+}
+
+.grupo {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.pessoas {
+    
+    position: relative;
+    margin: 1em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.pessoas img {
+    width: 100%;
+    max-width: 118px;
+    max-height: 118px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+}
+
+.text {
+    height: 50px;
+    background-color: #fff;
+    width: 118px;
+    box-shadow: 10px 10px 10px  10px rgba(0, 0, 0, 0.1);
+}
+
+.conteudo {
+    margin-top: -3em;
+    transform: scale(0.9);
+    height: 800px;
+    min-width: 300px;
+}
+
+.pessoas h2 {
+    font-size: 0.7em;
+    color: #6C0AD9;
+    white-space: nowrap;
+    margin-top: 0.5em;
+
+}
+
+.pessoas p {
+    margin-top: 0.5em;
+    font-size: 0.7em;
+}

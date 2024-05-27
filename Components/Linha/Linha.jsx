@@ -28,7 +28,7 @@ export default function Linha() {
                 <div className="LinhaH"></div>
                 <div className="LinhaH"></div>
             </div>
-            <div className="LinhasContainer">
+            <div className="LinhasContainerG">
                 <div className="Linha"></div>
                 <div className="Linha"></div>
                 <div className="Linha"></div>

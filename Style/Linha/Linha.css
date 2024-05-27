@@ -35,3 +35,9 @@
     height: 300px;
     justify-content: flex-end;
 }
+.LinhasContainerG{
+    margin-right: -0.1em;
+    margin-top: -1em;
+    display:flex;
+    height: 880px;
+}

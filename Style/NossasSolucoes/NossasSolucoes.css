@@ -2,7 +2,7 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin: 1em;
+    margin: 1.6em;
 }
 .solu{
     color: #6C0AD9;
@@ -21,4 +21,18 @@
     border-radius: 20px;
     color: #fff;
     font-size: 0.9em;
+}
+
+.slide{
+    width: 100%;
+}
+
+@media screen and (min-width:768px) {
+    .slide{
+        width: 95%;
+    }
+
+    .btn{
+        margin-top: 25px;
+    }
 }

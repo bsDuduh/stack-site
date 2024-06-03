@@ -1,16 +1,23 @@
-import React from 'react';
 import "../../Style/CardPessoas/CardPessoas.css";
 import DaviVarella from "../../src/assets/Davi_Varella.jpg";
+import Tevez from "../../src/assets/Tevez.jpeg"
+import Gab from "../../src/assets/gab.jpeg"
+import Miguel from "../../src/assets/miguel.jpeg"
+import Eduardo from "../../src/assets/eduardo.jpeg"
+import Endy from "../../src/assets/endy.jpeg"
+import Ana from "../../src/assets/ana.jpeg"
+
+
 
 export default function CardPessoas() {
     const teamMembers = [
-        { name: "Gabriella Lima", role: "UI/UX Designer", img: DaviVarella },
-        { name: "Endy Kaori", role: "Database Developer", img: DaviVarella },
-        { name: "Ana Vitoria", role: "Documentation", img: DaviVarella },
-        { name: "Carlos Tevez", role: "Web Developer", img: DaviVarella },
-        { name: "Eduardo Barbosa", role: "Web Developer", img: DaviVarella },
-        { name: "Miguel Freitas", role: "Mobile Developer", img: DaviVarella },
-        { name: "Davi Varella", role: "Mobile Developer and Leader", img: DaviVarella },
+        { name: "Gabriella", role: "UI/UX Designer", img: Gab },
+        { name: "Endy Kaori", role: "Database Developer", img: Endy },
+        { name: "Ana Vitoria", role: "Documentation", img: Ana },
+        { name: "Carlos Tevez", role: "Web Developer", img: Tevez },
+        { name: "Eduardo", role: "Web Developer", img: Eduardo },
+        { name: "Miguel", role: "Mobile Developer", img: Miguel },
+        { name: "Davi", role: "Mobile Developer and Leader", img: DaviVarella },
     ];
 
     return (

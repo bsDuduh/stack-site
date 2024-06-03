@@ -27,16 +27,16 @@ export default function NossasSolucoes() {
                     onSwiper={(swiper) => console.log(swiper)}
                 >
                     <SwiperSlide>
-                        <img src={Slide1} alt="slide"  width="100%"/>
+                        <img src={Slide1} alt="slide"  className='slide'/>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src={Slide2} alt="slide"  width="100%"/>
+                        <img src={Slide2} alt="slide"  className='slide'/>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src={Slide3} alt="slide"  width="100%"/>
+                        <img src={Slide3} alt="slide"  className='slide'/>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src={Slide4} alt="slide"  width="100%"/>
+                        <img src={Slide4} alt="slide"  className='slide'/>
                     </SwiperSlide>
                 </Swiper>
                 <span className='texto'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>

@@ -38,9 +38,8 @@
 }
 
 .pessoas {
-    
     position: relative;
-    margin: 1em;
+    padding: 1em;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -49,17 +48,16 @@
 }
 
 .pessoas img {
-    width: 100%;
-    max-width: 118px;
-    max-height: 118px;
+    object-fit: cover;
+    border-radius: 70px;
+    width: 118px;
+    height: 118px;
     box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
 }
 
 .text {
     height: 50px;
-    background-color: #fff;
     width: 118px;
-    box-shadow: 10px 10px 10px  10px rgba(0, 0, 0, 0.1);
 }
 
 .conteudo {
@@ -72,12 +70,44 @@
 .pessoas h2 {
     font-size: 0.7em;
     color: #6C0AD9;
-    white-space: nowrap;
     margin-top: 0.5em;
+    white-space: nowrap;
 
 }
 
 .pessoas p {
     margin-top: 0.5em;
     font-size: 0.7em;
+}
+
+@media  screen and (min-width: 425px) {
+    .pessoas img {
+        width: 135px;
+        height: 135px;
+    }
+
+    .pessoas h2{
+        font-size: 1em
+    }
+
+    .pessoas p{
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .pessoas img {
+        width: 150px;
+        height: 150px;
+        border-radius: 75px;
+
+    }
+
+    .pessoas h2{
+        font-size: 1.2em
+    }
+
+    .pessoas p{
+        font-size: 0.8em;
+    }
 }

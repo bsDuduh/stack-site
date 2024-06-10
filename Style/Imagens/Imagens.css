@@ -55,3 +55,16 @@ html {
   height: auto;
   cursor: pointer;
 }
+
+@media screen and (min-width:768px) {
+  .Logo {
+    max-width: 325px; 
+  }
+
+  .Logo span {
+    font-size: 1em;
+  }
+}
+
+
+

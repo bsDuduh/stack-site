@@ -124,4 +124,10 @@
         width: 24px;
         height: 24px;
     }
+
+@media screen and (min-width:1024px) {
+    .navlink, .navlink-contato{
+        font-size: 1.1em;
+    }
+}
 }

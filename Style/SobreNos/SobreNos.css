@@ -8,7 +8,7 @@
 .section-container {
     position: relative;
     width: 100%; 
-    margin: 1em auto; 
+    margin: auto; 
 }
 
 .sobre-nos-container {
@@ -66,19 +66,36 @@
     .sobre-nos-container {
        padding-top: 15vh;
     }
+}
 
+@media screen and (min-width: 768px){
+    .sobre-nos-container {
+       padding-top: 9vh;
+    }
+}
 
 @media screen and (min-width: 1024px){
     
     #SobreNos img{
-        height: 20vh;
-        width: 60vw;
+        height: 80vh;
+        width: 65vw;
     }
     
     .sobre-nos-container {
-        margin: -5em auto; 
+        margin: 1em auto; 
+    }
+
+    .texto1, .texto2 {
+        font-size: 1.2em;
+        
     }
     
+    #SobreNos h3{
+        font-size: 1.8em;
+    }
+
+    .empresa{
+        font-size: 1.2em;
+    }
 }
 
-}

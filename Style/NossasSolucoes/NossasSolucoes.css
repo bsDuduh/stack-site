@@ -28,11 +28,37 @@
 }
 
 @media screen and (min-width:768px) {
+    #nossasSolu h2{
+        font-size: 2em;
+    }
+
+    #nossasSolu p{
+        font-size: 1.2em;
+    }
+
+    #nossasSolu .texto{
+        font-size: 1.2em;
+    }
+
     .slide{
-        width: 95%;
+        width: 100%;
     }
 
     .btn{
-        margin-top: 25px;
+        margin-top: 35px;
+    }
+
+    #nossasSolu{
+        margin: 2em;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    #nossasSolu h2{
+        font-size: 2.1em;
+    }
+
+    #nossasSolu p{
+        font-size: 1.3em;
     }
 }

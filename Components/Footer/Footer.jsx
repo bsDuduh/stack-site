@@ -1,4 +1,3 @@
-import React from 'react';
 import '../../Style/Footer/Footer.css';
 import sms from '../../src/assets/sms.png'
 import facebook from '../../src/assets/facebook.png'
@@ -16,8 +15,8 @@ export default function Footer() {
                 <h3>Entre em Contato</h3>
                 <div className="footer-contact">
                     <div className="contact-item">
-                        <a href="#" className="footer-link">
-                            <img className="logo_contact"  alt="Email"  src={email}/><span>Stack@gmail.com</span>
+                        <a href="mailto:stackinovacao@gmail.com" className="footer-link">
+                            <img className="logo_contact"  alt="Email"  src={email}/><span>StackInovacao@gmail.com</span>
                         </a>
                     </div>
                     <div className="contact-item">
@@ -41,27 +40,27 @@ export default function Footer() {
                         <h3>Mapa do Site</h3>
                     </li>
                     <li>
-                        <a href="#" className="footer-link">Sobre a Empresa</a>
+                        <a href="#SobreNosID" className="footer-link">Sobre a Empresa</a>
                     </li>
                     <li>
-                        <a href="#" className="footer-link">Nossos Valores</a>
+                        <a href="#NossosValores" className="footer-link">Nossos Valores</a>
                     </li>
                     <li>
-                        <a href="#" className="footer-link">Sobre Nossa Equipe</a>
+                        <a href="#NossaEquipe" className="footer-link">Sobre Nossa Equipe</a>
                     </li>
                     <li>
-                        <a href="#" className="footer-link">Soluções</a>
+                        <a href="#nossasSolu" className="footer-link">Soluções</a>
                     </li>
                 </ul>
 
                 <div id='footer_contacts'>
                     <h3>Nos Acompanhe</h3>
-                    <div id='footer_social_media'>
-                        <a href='#' className='footer-link'><img className='linkedin' src={linkedln} alt='LinkedIn' /><span className="social-media-text"> @Stack </span></a>
-                        <a href='#' className='footer-link'><img className='instagram' src={instagram} alt='Instagram' /><span className="social-media-text"> @Stack </span></a>
-                        <a href='#' className='footer-link'><img className='x' src={x} alt='X' /><span className="social-media-text"> @Stack </span></a>
-                        <a href='#' className='footer-link'><img className='facebook' src={facebook} alt='Facebook' /><span className="social-media-text"> @Stack </span></a>
-                    </div>
+                        <div id='footer_social_media'>
+                            <a href='https://www.linkedin.com/in/stack-inova%C3%A7%C3%A3o-009557311/' className='footer-link'><img className='linkedin' src={linkedln} alt='LinkedIn' /><span className="social-media-text"> @Stack </span></a>
+                            <a href='https://www.instagram.com/stack_corp/' className='footer-link'><img className='instagram' src={instagram} alt='Instagram' /><span className="social-media-text"> @Stack </span></a>
+                            <a href='https://x.com/stack_corp' className='footer-link'><img className='x' src={x} alt='X' /><span className="social-media-text"> @Stack </span></a>
+                            <a href='https://www.facebook.com/profile.php?id=61560602637057&mibextid=ZbWKwL' className='footer-link'><img className='facebook' src={facebook} alt='Facebook' /><span className="social-media-text"> @Stack </span></a>
+                        </div>
                 </div>
                 
             </div>

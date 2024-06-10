@@ -23,11 +23,11 @@ export default function Header() {
                 </div>
                 <div className="navlist">
                     <ul>
-                        <li className="navitem"><a href="#" className="navlink">Sobre A Empresa</a></li>
-                        <li className="navitem"><a href="#" className="navlink">Nossos Valores</a></li>
-                        <li className="navitem"><a href="#" className="navlink">Sobre Nossa Equipe</a></li>
-                        <li className="navitem"><a href="#" className="navlink">Soluções</a></li>
-                        <li className="navitem"><a href="#" className="navlink-contato">Contato</a></li>
+                        <li className="navitem"><a href="#SobreNosID" className="navlink">Sobre A Empresa</a></li>
+                        <li className="navitem"><a href="#NossosValores" className="navlink">Nossos Valores</a></li>
+                        <li className="navitem"><a href="#NossaEquipe" className="navlink">Sobre Nossa Equipe</a></li>
+                        <li className="navitem"><a href="#nossasSolu" className="navlink">Soluções</a></li>
+                        <li className="navitem"><a href="#footer_content" className="navlink-contato">Contato</a></li>
                     </ul>
                 </div>
                 <div className='mobile-menu-icon'>
@@ -36,11 +36,11 @@ export default function Header() {
             </nav>
             <div className='mobile-menu'>
                 <ul>
-                    <li className="navitem"><a href="#" className="navlink">Sobre A Empresa</a></li>
-                    <li className="navitem"><a href="#" className="navlink">Nossos Valores</a></li>
-                    <li className="navitem"><a href="#" className="navlink">Sobre Nossa Equipe</a></li>
-                    <li className="navitem"><a href="#" className="navlink">Soluções</a></li>
-                    <li className="navitem"><a href="#" className="navlink-contato">Contato</a></li>
+                    <li className="navitem"><a href="#SobreNosID" className="navlink">Sobre A Empresa</a></li>
+                    <li className="navitem"><a href="#NossosValores" className="navlink">Nossos Valores</a></li>
+                    <li className="navitem"><a href="#NossaEquipe" className="navlink">Sobre Nossa Equipe</a></li>
+                    <li className="navitem"><a href="#nossasSolu" className="navlink">Soluções</a></li>
+                    <li className="navitem"><a href="#footer_content" className="navlink-contato">Contato</a></li>
                 </ul>
             </div>    
         </header>

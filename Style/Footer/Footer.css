@@ -57,7 +57,6 @@ footer {
     align-items: center;
     color: var(--sub-color);
     border-radius: 50%;
-    transition: all 0.4s;
 }
 
 #footer_social_media .footer-link img {
@@ -79,7 +78,6 @@ footer {
 .footer-list .footer-link {
     text-decoration: none;
     color: var(--sub-color);
-    transition: all 0.4s;
     font-size: 0.8rem;
 }
 
@@ -105,7 +103,6 @@ footer {
     align-items: center;
     color: var(--sub-color);
     text-decoration: none;
-    transition: all 0.4s;
 }
 
 .contact-item a:hover {

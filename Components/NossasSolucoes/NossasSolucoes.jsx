@@ -39,7 +39,7 @@ export default function NossasSolucoes() {
                         <img src={Slide4} alt="slide"  className='slide'/>
                     </SwiperSlide>
                 </Swiper>
-                <span className='texto'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
+                <p className='textoslide'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 <br/>
                 <a href=""><button className='btn'>Acessar o Repositorio</button></a>
             </div>

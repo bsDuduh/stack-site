@@ -34,7 +34,7 @@ export default function CardPessoas() {
                         {teamMembers.map((member, index) => (
                             <div className="pessoas" key={index}>
                                 <img src={member.img} alt={member.name} />
-                                <div className="text">
+                                <div className="grupoText">
                                     <h2>{member.name}</h2>
                                     <p>{member.role}</p>
                                 </div>

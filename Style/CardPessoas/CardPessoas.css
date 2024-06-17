@@ -54,9 +54,9 @@
     box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
 }
 
-.text {
-    height: 50px;
-    width: 118px;
+.grupoText{
+    height: auto;
+    width: 100px;
 }
 
 .conteudo {
@@ -70,7 +70,6 @@
     font-size: 0.9em;
     color: #6C0AD9;
     margin-top: 0.5em;
-    white-space: nowrap;
 
 }
 
@@ -96,12 +95,28 @@
     .nossa-equipe-container {
         margin: 49em auto;
     }
+
+    .nossa-equipe-container h3 {
+        margin: 0;
+        text-align: center;
+        font-size: 1.8em;
+        width: 100%;
+    }
+
+    .grupoText{
+        text-align: center;
+        font-size: 14px;
+    }
+
+    span.texto1{
+        text-align: center;
+    }
 }
 
 @media screen and (min-width:768px) {
     .pessoas img {
-        width: 180px;
-        height: 180px;
+        width: 150px;
+        height: 150px;
         border-radius: 85px;
     }
 
@@ -114,7 +129,7 @@
     }
 
     .pessoas {
-        padding: 1.8em;
+        padding: 1.3em;
     }
 
     .pessoas h2{
@@ -128,18 +143,22 @@
     .nossa-equipe-container {
         margin: 49em auto;
     }
+
+    .grupoText{
+        font-size: 16px;
+    }
 }
 
 @media screen and (min-width:1024px) {
     .pessoas img {
-        width: 200px;
-        height: 200px;
+        width: 180px;
+        height: 180px;
         border-radius: 100px;
 
     }
 
     .pessoas {
-        padding: 2em;
+        padding: 2.5em;
     }
 
     .pessoas h2{
@@ -149,4 +168,61 @@
     .pessoas p{
         font-size: 1.2em;
     }
+
+    .nossa-equipe-container{
+        margin-top: 54em;
+    }
+
+    .nossa-equipe-container h3 {
+        font-size: 1.8em;
+
+    }
+
+    .grupoText{
+        font-size: 1.2em;
+    }
+
+    span.texto1{
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .pessoas img {
+        width: 220px;
+        height: 220px;
+        border-radius: 120px;
+    }
+
+    .pessoas {
+        padding: 2.5em;
+    }
+
+    .pessoas h2{
+        font-size: 1.5em;
+    }
+
+    .pessoas p{
+        font-size: 1.3em;
+    }
+    
+    .nossa-equipe-container{
+        margin-top: 73em;
+    }
+    
+    .nossa-equipe-container h3 {
+        font-size: 2.7em;
+
+    }
+
+    span.texto1{
+        width: 100%;
+        font-size: 1.7em;
+    }
+
+    .grupoText{
+        width: 100%;
+        font-size: 1.4em;
+    }
+
 }

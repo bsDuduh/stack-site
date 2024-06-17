@@ -61,4 +61,56 @@
     #nossasSolu p{
         font-size: 1.3em;
     }
+
+    .slide{
+        width: 90%;
+    }
+
+    .swiper-scrollbar.swiper-scrollbar-horizontal{
+        width: 85%;
+        margin-left: 4em;
+    }
+    
+    .texto{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .btn{
+        margin-top: 15px;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    #nossasSolu h2{
+        font-size: 2.5em;
+    }
+
+    #nossasSolu p{
+        padding: 10px;
+        font-size: 1.5em;
+    }
+
+    .slide{
+        width: 90%;
+    }
+
+    .swiper-scrollbar.swiper-scrollbar-horizontal{
+        width: 85%;
+        margin-left: 4em;
+    }
+    
+    .textoslide{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    .btn{
+        height: 70px;
+        width: 380px;
+        font-size: 23px;
+    }
 }

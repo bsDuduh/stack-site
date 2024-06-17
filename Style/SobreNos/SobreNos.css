@@ -68,6 +68,12 @@
     }
 }
 
+@media screen and (min-width: 425px){
+    #SobreNos h3{
+        font-size: 1.3em;
+    }
+}
+
 @media screen and (min-width: 768px){
     .sobre-nos-container {
        padding-top: 9vh;
@@ -82,7 +88,7 @@
     }
     
     .sobre-nos-container {
-        margin: 1em auto; 
+        margin: 4em auto; 
     }
 
     .texto1, .texto2 {
@@ -99,3 +105,17 @@
     }
 }
 
+@media screen and (min-width: 1440px){
+ 
+    .sobre-nos-container{
+        margin: 9em auto;
+    }
+
+    .texto1, .texto2 {
+        font-size: 1.5em;   
+    }
+    
+    #SobreNos h3{
+        font-size: 2.1em;
+    }
+}

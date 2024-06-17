@@ -55,12 +55,31 @@
 
 @media screen and (min-width:768px) {
     .LinhasContainerG{
-        height: 1260px;
+        height: 1050px;
     }
 }
 
 @media screen and (min-width:1024px){
     .LinhasContainerG{
-        height: 1075px;
+        height: 1250px;
+    }
+
+    .LinhasContainer{
+        height: 580px;
     }
 }
+
+@media screen and (min-width:1440px){
+    .LinhasContainerG{
+        height: 1380px;
+    }
+
+    .LinhasContainer{
+        height: 775px;
+    }
+
+    .LinhasContainerReta{
+        height: 320px;
+    }
+}
+

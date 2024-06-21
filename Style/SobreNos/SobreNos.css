@@ -119,3 +119,18 @@
         font-size: 2.1em;
     }
 }
+
+@media screen and (min-width: 2560px){
+ 
+    .sobre-nos-container{
+        margin: 15em auto;
+    }
+
+    .texto1, .texto2 {
+        font-size: 1.6em;   
+    }
+    
+    #SobreNos h3{
+        font-size: 2.6em;
+    }
+}

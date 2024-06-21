@@ -39,7 +39,7 @@
     margin-right: -0.1em;
     margin-top: -1em;
     display:flex;
-    height: 920px;
+    height: 950px;
 }
 
 @media screen and (min-width:425px) {
@@ -83,3 +83,16 @@
     }
 }
 
+@media screen and (min-width:2560px){
+    .LinhasContainerG{
+        height: 1150px;
+    }
+
+    .LinhasContainer{
+        height: 980px;
+    }
+
+    .LinhasContainerReta{
+        height: 320px;
+    }
+}

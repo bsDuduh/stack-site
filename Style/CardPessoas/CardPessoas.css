@@ -154,7 +154,6 @@
         width: 180px;
         height: 180px;
         border-radius: 100px;
-
     }
 
     .pessoas {
@@ -162,11 +161,11 @@
     }
 
     .pessoas h2{
-        font-size: 1.3em
+        font-size: 1.2em
     }
 
     .pessoas p{
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
 
     .nossa-equipe-container{
@@ -213,6 +212,45 @@
     .nossa-equipe-container h3 {
         font-size: 2.7em;
 
+    }
+
+    span.texto1{
+        width: 100%;
+        font-size: 1.7em;
+    }
+
+    .grupoText{
+        width: 100%;
+        font-size: 1.4em;
+    }
+
+}
+
+@media screen and (min-width:2560px) {
+    .pessoas img {
+        width: 220px;
+        height: 220px;
+        border-radius: 120px;
+    }
+
+    .pessoas {
+        padding: 4.3em;
+    }
+
+    .pessoas h2{
+        font-size: 1.5em;
+    }
+
+    .pessoas p{
+        font-size: 1.3em;
+    }
+    
+    .nossa-equipe-container{
+        margin-top: 85em;
+    }
+    
+    .nossa-equipe-container h3 {
+        font-size: 2.7em;
     }
 
     span.texto1{

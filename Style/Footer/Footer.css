@@ -119,11 +119,6 @@ footer {
     margin-left: 0.5rem; 
 }
 
-
-
-/* Media Queries para Telas Maiores */
-
-/* Telas de até 480px */
 @media (min-width: 480px) {
     #footer_content {
         padding: 1.5rem 1rem;
@@ -139,7 +134,6 @@ footer {
     }
 }
 
-/* Telas de até 600px */
 @media (min-width: 600px) {
     #footer_content {
         padding: 2rem 1rem;
@@ -166,21 +160,19 @@ footer {
     
 }
 
-/* Telas de até 900px */
 @media (min-width: 900px) {
     #footer_content {
         padding: 2rem;
     }
 }
 
-/* Telas acima de 900px */
 @media (min-width: 900px) {
     #footer_content {
         padding: 3rem 3.5rem;
     }
     
     .footer-list .footer-link {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     
     
@@ -193,3 +185,32 @@ footer {
         font-size: 1.5rem;
     }
 }
+
+@media (min-width: 900px) {
+    
+    .footer-list .footer-link {
+        font-size: 1.5rem;
+    }
+    
+    .social-media-text{
+        font-size: 1.5rem;
+    }
+    .contact-item{
+        font-size: 1.5rem;
+    }
+
+    #footer_contacts h3 {
+        font-size: 2rem;
+    }
+
+    #footer_contacts h3,
+    #footer_content h3 {
+    font-size: 2rem;
+    text-align: center;
+    }
+
+    #footer_copyright {
+        font-size: 1.3rem;
+    }
+}
+

@@ -78,6 +78,8 @@
     }
 
     .btn{
+        font-size: 16px;
+        height: 50px;
         margin-top: 15px;
     }
 }
@@ -99,6 +101,40 @@
     .swiper-scrollbar.swiper-scrollbar-horizontal{
         width: 85%;
         margin-left: 4em;
+    }
+    
+    .textoslide{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    .btn{
+        height: 70px;
+        width: 380px;
+        font-size: 23px;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    #nossasSolu h2{
+        font-size: 2.7em;
+    }
+
+    #nossasSolu p{
+        padding: 10px;
+        font-size: 1.7em;
+    }
+
+    .slide{
+        width: 1700px;
+        height: 750px;
+    }
+
+    .swiper-scrollbar.swiper-scrollbar-horizontal{
+        width: 68%;
+        margin-left: 23em;
     }
     
     .textoslide{

@@ -76,5 +76,16 @@ html {
   }
 }
 
+@media screen and (min-width:2560px) {
+  .Logo {
+    max-width: 480px; 
+  }
+
+  .Logo span {
+    font-size: 1.4em;
+  }
+  
+}
+
 
 

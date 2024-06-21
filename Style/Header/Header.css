@@ -22,8 +22,8 @@
 .logo {
     display: flex;
     justify-content: center;
-    width: 120px; /* Valor fixo para a largura em dispositivos móveis */
-    height: auto; /* Ajuste automático da altura */
+    width: 120px; 
+    height: auto; 
 }
 
 .navlist {
@@ -82,7 +82,6 @@
     color: var(--main-color);
 }
 
-/* Estilos para dispositivos maiores */
 @media screen and (min-width: 769px) {
 
     .logo {
@@ -131,3 +130,16 @@
     }
 }
 }
+
+@media screen and (min-width:2560px) {
+    .logo {
+        width: 200px;
+    }
+
+    .navlink, .navlink-contato{
+        font-size: 1.6em;
+    }
+}
+
+
+

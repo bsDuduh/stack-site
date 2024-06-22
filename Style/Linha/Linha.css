@@ -61,38 +61,56 @@
 
 @media screen and (min-width:1024px){
     .LinhasContainerG{
-        height: 1250px;
+        height: 1310px;
     }
 
     .LinhasContainer{
-        height: 580px;
+        height: 650px;
+    }
+
+    .LinhasContainerReta{
+        height: 300px;
     }
 }
 
 @media screen and (min-width:1440px){
     .LinhasContainerG{
-        height: 1380px;
+        height: 1650px;
     }
 
     .LinhasContainer{
-        height: 775px;
+        height: 930px;
     }
 
     .LinhasContainerReta{
-        height: 320px;
+        height: 360px;
     }
 }
 
-@media screen and (min-width:2560px){
+@media screen and (min-width:1920px) {
     .LinhasContainerG{
-        height: 1150px;
+        height: 1750px;
     }
 
     .LinhasContainer{
-        height: 980px;
+        height: 1010px;
     }
 
     .LinhasContainerReta{
-        height: 320px;
+        height: 390px;
+    }
+}
+
+@media screen and (min-width:2100px) {
+    .LinhasContainerG{
+        height: 1750px;
+    }
+
+    .LinhasContainer{
+        height: 1100px;
+    }
+
+    .LinhasContainerReta{
+        height: 400px;
     }
 }

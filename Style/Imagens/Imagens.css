@@ -54,6 +54,22 @@ html {
   width: 100%;
   height: auto;
   cursor: pointer;
+  position: relative;
+  animation: moveUpDown 3s infinite;
+}
+
+@keyframes moveUpDown {
+  0% {
+      top: 0;
+  }
+
+  50%{
+      top:85px
+  }
+
+  100% {
+      top: 0;
+  }
 }
 
 @media screen and (min-width:768px) {
@@ -76,7 +92,7 @@ html {
   }
 }
 
-@media screen and (min-width:2560px) {
+@media screen and (min-width:1920px) {
   .Logo {
     max-width: 480px; 
   }
@@ -84,7 +100,6 @@ html {
   .Logo span {
     font-size: 1.4em;
   }
-  
 }
 
 

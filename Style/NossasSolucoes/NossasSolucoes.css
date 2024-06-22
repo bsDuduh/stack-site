@@ -1,3 +1,9 @@
+:root {
+    --main-color: #6C0AD9;
+    --gradient: #A41BF9;
+    --sub-color: #FFFFFF;
+}
+
 #nossasSolu{
     text-align: center;
     justify-content: center;
@@ -5,22 +11,29 @@
     margin: 1.6em;
 }
 .solu{
-    color: #6C0AD9;
+    color: var(--main-color);
 }
 .swiper-scrollbar {
-    background-color: #6C0AD9;
+    background-color: var(--main-color);
 }
 .swiper-scrollbar-drag {
-    background-color: #A41BF9; 
+    background-color: var(--gradient); 
 }
 .btn{
     margin-top: 1em;
-    background-color: #6C0AD9;
+    background-color: var(--main-color);
     border: none;
     padding: 1em 2em 1em 2em;
     border-radius: 20px;
-    color: #fff;
+    color: var(--sub-color);
     font-size: 0.9em;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn:hover{
+    background-color: var(--gradient);
+    transform: scale(1.05);
 }
 
 .slide{
@@ -117,36 +130,28 @@
     }
 }
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width:1920px) {
     #nossasSolu h2{
-        font-size: 2.7em;
+        margin-top: 80px;
+        font-size: 2.8em;
     }
 
     #nossasSolu p{
-        padding: 10px;
-        font-size: 1.7em;
+        font-size: 1.8em;
     }
 
     .slide{
-        width: 1700px;
-        height: 750px;
+        width: 80%;
     }
 
     .swiper-scrollbar.swiper-scrollbar-horizontal{
-        width: 68%;
-        margin-left: 23em;
+        width: 79%;
+        margin-left: 11em;
     }
     
-    .textoslide{
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        font-size: 1.5em;
-    }
-
     .btn{
-        height: 70px;
-        width: 380px;
-        font-size: 23px;
+        height: 80px;
+        width: 390px;
+        font-size: 25px;
     }
 }

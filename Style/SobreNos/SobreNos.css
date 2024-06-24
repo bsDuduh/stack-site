@@ -109,6 +109,12 @@
     }
 }
 
+@media screen and (min-width:1165px) {
+    .sobre-nos-container{
+        margin: 9em auto;
+    }
+}
+
 @media screen and (min-width: 1440px){
  
     .sobre-nos-container{

@@ -26,8 +26,7 @@ export default function CardPessoas() {
             <section id='NossaEquipe' className="nossa-equipe-container">
                 <h3>Nossa <span className='equipe'>EQUIPE</span></h3>
                 <span className='texto1'>
-                    Lorem Ipsum is simply dummy text of the printing <br />
-                    and typesetting industry.
+                A nossa equipe é composta por
                 </span>
                 <div className="conteudo">
                     <div className="grupo">

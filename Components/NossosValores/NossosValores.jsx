@@ -7,9 +7,9 @@ export default function NossosValores() {
             <section  className="NossosValores-container">
                     <span id='NossosValores' className='Valores'>Nossos Valores</span>
                     <ul>
-                        <li className='texto3'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
-                        <li className='texto3'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
-                        <li className='texto3'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+                        <li className='texto3'>Honestidade: Valorizamos a transparência e a integridade em todas as nossas ações.</li>
+                        <li className='texto3'>Qualidade: Comprometemo-nos a entregar produtos e serviços de alta qualidade.</li>
+                        <li className='texto3'>Liderança: Buscamos ser líderes no setor tecnológico através de inovação e excelência.</li>
                     </ul>
                 </section>
             </div>

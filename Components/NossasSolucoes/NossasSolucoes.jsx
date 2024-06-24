@@ -15,7 +15,7 @@ export default function NossasSolucoes() {
     return (
         <section id="nossasSolu">
             <h2>Nossas <span className='solu'>Soluções</span></h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            <p>Simplificando o seu caminho para o destino. Nossa equipe de software desenvolve aplicativos de rotas para tornar suas viagens mais fáceis e eficientes. </p>
             <br />
             <div className="slider">
                 <Swiper
@@ -39,7 +39,7 @@ export default function NossasSolucoes() {
                         <img src={Slide4} alt="slide"  className='slide'/>
                     </SwiperSlide>
                 </Swiper>
-                <p className='textoslide'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <p className='textoslide'>Descubra a melhor forma de chegar onde você precisa com o "Meu Guia Pessoal".</p>
                 <br/>
                 <a href=""><button className='btn'>Acessar o Repositorio</button></a>
             </div>

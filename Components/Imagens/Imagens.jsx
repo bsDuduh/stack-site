@@ -8,7 +8,7 @@ export default function Imagens({ src, alt, className }) {
             <img src={src} alt={alt} className={className} />
             <div className="Logo">
                 <img src={logoEscrito} alt="logo escrito stack" />
-                <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
+                <span>Seja na impressão, no design ou no desenvolvimento de software, nossa equipe está pronta para transformar ideias em realidade.</span>
                 <div className="seta">
                     <a href="#SobreNosID"><img src={seta} alt="seta" /></a>
                 </div>

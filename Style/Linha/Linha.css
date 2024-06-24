@@ -15,7 +15,7 @@
 .LinhasContainer {
     margin-top: -1em;
     display:flex;
-    height: 500px;
+    height: 525px;
 }
 
 .LinhaH {
@@ -32,7 +32,7 @@
     margin-right: -0.1em;
     margin-top: -1em;
     display:flex;
-    height: 300px;
+    height: 355px;
     justify-content: flex-end;
 }
 .LinhasContainerG{
@@ -44,7 +44,7 @@
 
 @media screen and (min-width:425px) {
     .LinhasContainerReta{
-        height: 260px;
+        height: 290px;
 
     }
 
@@ -66,6 +66,20 @@
 
     .LinhasContainer{
         height: 650px;
+    }
+
+    .LinhasContainerReta{
+        height: 300px;
+    }
+}
+
+@media screen and (min-width:1165px){
+    .LinhasContainerG{
+        height: 1310px;
+    }
+
+    .LinhasContainer{
+        height: 730px;
     }
 
     .LinhasContainerReta{

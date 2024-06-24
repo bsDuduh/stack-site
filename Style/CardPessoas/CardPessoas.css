@@ -6,7 +6,7 @@
 .nossa-equipe-container {
     position: absolute;
     width: 90%;
-    margin: 51em auto;
+    margin: 57em auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -103,7 +103,7 @@
     }
 
     .nossa-equipe-container {
-        margin: 49em auto;
+        margin: 52em auto;
     }
 
     .nossa-equipe-container h3 {
@@ -151,7 +151,7 @@
     }
 
     .nossa-equipe-container {
-        margin: 49em auto;
+        margin: 53em auto;
     }
 
     .grupoText{
@@ -194,6 +194,14 @@
     span.texto1{
         font-size: 18px;
     }
+}
+
+@media screen and (min-width:1165px) {
+
+    .nossa-equipe-container{
+        margin-top: 67em;
+    }
+
 }
 
 @media screen and (min-width:1440px) {

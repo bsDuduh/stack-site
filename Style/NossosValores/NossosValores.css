@@ -18,7 +18,7 @@
 
 .NossosValores-container {
     max-height: 800px;
-    margin-top: 600px;
+    margin-top: 625px;
     position: absolute;
     right: 3em;
     padding: 1.5em;
@@ -67,6 +67,12 @@
     }
     .NossosValores-container {
         margin-top: 48em;
+    }
+}
+
+@media screen and (min-width:1165px) {
+    .NossosValores-container {
+        margin-top: 53em;
     }
 }
 
